@@ -1,0 +1,195 @@
+
+// div#loading{
+    
+//     height: 10em;
+//     width: 10em;
+//     border: 5px solid rgb(187, 187, 187);
+//     border-right-color:blue;
+//     border-radius: 100%;
+//     top:40%;
+//     left: 45%;
+//     position: absolute;
+//     z-index: 1;   
+// }
+// div.circle{
+//     animation: loading 5s linear;
+// }
+// div#blur{
+//     filter: blur(5px);
+// }
+// @keyframes loading {
+// 	0% {
+// 		transform: rotate(0);
+// 	}
+// 	100% {
+// 		transform: rotate(360deg);
+// 	}
+// }
+
+
+
+div.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+img.euMesmo{
+    border-radius: 100%;
+    width: 12em;
+    height: 12em;
+}
+
+h1{
+   font-size: 2em;
+}
+
+section.info1{
+    display: flex;
+    margin-top: 3em;
+    align-items: center;
+}
+article.myImg{
+    margin-right: 4em;
+}
+article.myInfo{
+    margin-left: 4em;
+}
+article.myInfo div{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+article.myInfo div img{
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+}
+section.infosGerais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+section.infosGerais div{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+a{
+    text-decoration: none;
+}
+p.rua{
+    text-align: right;
+}
+@media(max-width:620px) {
+    img.euMesmo{
+        width: 10em;
+        height: 10em;
+    }
+    section.infosGerais div{
+        width: 80%;
+    }
+    article.myImg{
+        margin-right: 1.3em;
+    }
+    article.myInfo{
+        margin-left: 1.3em;
+    }
+    h1{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1em; 
+    }
+    h3{
+        font-size: 2em;
+    }
+    p{
+       font-size: .7em; 
+    }
+}
+@media(max-width:484px) {
+    img.euMesmo{
+        width: 8em;
+        height: 8em;
+    }
+    article.myImg{
+        margin-right: 1em;
+    }
+    article.myInfo{
+        margin-left: 1em;
+    }
+}
+@media(max-width:384px) {
+    img.euMesmo{
+        width: 6em;
+        height: 6em;
+    }
+    article.myImg{
+        margin-right: 1em;
+    }
+    article.myInfo{
+        margin-left: 1em;
+    }
+}
+@media(max-width:322px) {
+    img.euMesmo{
+        width: 4em;
+        height: 4em;
+    }
+    article.myImg{
+        margin-right: .5em;
+    }
+    article.myInfo{
+        margin-left: .5em;
+    }
+}
+
+@media(min-width:620px){
+    section.infosGerais div{
+        width: 80%;
+    }
+    article.myImg{
+        margin-right: 1.5em;
+    }
+    article.myInfo{
+        margin-left: 1.5em;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 1.5em; 
+    }
+    h3{
+        font-size: 2.5em;
+    }
+    p{
+       font-size: 1em; 
+    }
+}
+@media(min-width:830px){
+    section.infosGerais div{
+        width: 75%;
+    }
+    
+}
+@media(min-width:960px){
+    section.infosGerais div{
+        width: 60%;
+    }
+}
+@media(min-width:1200px){
+    section.infosGerais div{
+        width: 50%;
+    }
+}
+
+

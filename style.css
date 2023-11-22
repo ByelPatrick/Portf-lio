@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,300&display=swap");
+body {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(161, 161, 161);
+}
+
+* {
+  font-family: "Urbanist", sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+* {
+  font-family: "Urbanist", sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+div.conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img.euMesmo {
+  border-radius: 100%;
+  width: 12em;
+  height: 12em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+section.info1 {
+  display: flex;
+  margin-top: 3em;
+  align-items: center;
+}
+
+article.myImg {
+  margin-right: 4em;
+}
+
+article.myInfo {
+  margin-left: 4em;
+}
+
+article.myInfo div {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+article.myInfo div img {
+  width: 2em;
+  height: 2em;
+  margin-left: 1em;
+}
+
+section.infosGerais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.infosGerais div {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p.rua {
+  text-align: right;
+}
+
+@media (max-width: 620px) {
+  img.euMesmo {
+    width: 10em;
+    height: 10em;
+  }
+  section.infosGerais div {
+    width: 80%;
+  }
+  article.myImg {
+    margin-right: 1.3em;
+  }
+  article.myInfo {
+    margin-left: 1.3em;
+  }
+  h1 {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 484px) {
+  img.euMesmo {
+    width: 8em;
+    height: 8em;
+  }
+  article.myImg {
+    margin-right: 1em;
+  }
+  article.myInfo {
+    margin-left: 1em;
+  }
+}
+@media (max-width: 384px) {
+  img.euMesmo {
+    width: 6em;
+    height: 6em;
+  }
+  article.myImg {
+    margin-right: 1em;
+  }
+  article.myInfo {
+    margin-left: 1em;
+  }
+}
+@media (max-width: 322px) {
+  img.euMesmo {
+    width: 4em;
+    height: 4em;
+  }
+  article.myImg {
+    margin-right: 0.5em;
+  }
+  article.myInfo {
+    margin-left: 0.5em;
+  }
+}
+@media (min-width: 620px) {
+  section.infosGerais div {
+    width: 80%;
+  }
+  article.myImg {
+    margin-right: 1.5em;
+  }
+  article.myInfo {
+    margin-left: 1.5em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+@media (min-width: 830px) {
+  section.infosGerais div {
+    width: 75%;
+  }
+}
+@media (min-width: 960px) {
+  section.infosGerais div {
+    width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  section.infosGerais div {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
