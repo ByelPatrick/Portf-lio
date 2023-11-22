@@ -1,30 +1,30 @@
 
-// div#loading{
+div#loading{
     
-//     height: 10em;
-//     width: 10em;
-//     border: 5px solid rgb(187, 187, 187);
-//     border-right-color:blue;
-//     border-radius: 100%;
-//     top:40%;
-//     left: 45%;
-//     position: absolute;
-//     z-index: 1;   
-// }
-// div.circle{
-//     animation: loading 5s linear;
-// }
-// div#blur{
-//     filter: blur(5px);
-// }
-// @keyframes loading {
-// 	0% {
-// 		transform: rotate(0);
-// 	}
-// 	100% {
-// 		transform: rotate(360deg);
-// 	}
-// }
+    height: 10em;
+    width: 10em;
+    border: 5px solid rgb(187, 187, 187);
+    border-right-color:blue;
+    border-radius: 100%;
+    top:40%;
+    left: 45%;
+    position: absolute;
+    z-index: 1;   
+}
+div.circle{
+    animation: loading 5s linear;
+}
+div#blur{
+    filter: blur(5px);
+}
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
 
 
 
@@ -185,10 +185,22 @@ p.rua{
     section.infosGerais div{
         width: 60%;
     }
+    article.myImg{
+        margin-right: 3em;
+    }
+    article.myInfo{
+        margin-left: 3em;
+    }
 }
 @media(min-width:1200px){
     section.infosGerais div{
         width: 50%;
+    }
+    article.myImg{
+        margin-right: 4em;
+    }
+    article.myInfo{
+        margin-left: 4em;
     }
 }
 
