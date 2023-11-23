@@ -93,6 +93,9 @@ p.rua{
         width: 10em;
         height: 10em;
     }
+    div#loading{
+        left: 38%;
+    }
     section.infosGerais div{
         width: 80%;
     }
@@ -126,6 +129,9 @@ p.rua{
     article.myInfo{
         margin-left: 1em;
     }
+    div#loading{
+        left: 30%;
+    }
 }
 @media(max-width:384px) {
     img.euMesmo{
@@ -149,6 +155,9 @@ p.rua{
     }
     article.myInfo{
         margin-left: .5em;
+    }
+    div#loading{
+        left: 25%;
     }
 }
 
