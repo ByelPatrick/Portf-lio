@@ -79,7 +79,10 @@ img.euMesmo{
     width: 12em;
     height: 12em;
 }
-
+img.euMesmo:hover{
+    transform: scale(1.1);
+    transition: .6s;
+}
 h1{
    font-size: 2em;
 }
