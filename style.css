@@ -49,7 +49,8 @@ h3 {
 }
 
 body {
-  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.555);
+  background-size: 1000% 1000%;
 }
 
 div#loading {
@@ -67,18 +68,36 @@ div#loading {
 video.videoBG {
   z-index: -1;
   position: fixed;
-  width: 100%;
+  width: 200%;
   filter: blur(5px);
-  height: 100dvh;
 }
 
+@media (max-width: 1140px) {
+  video.videoBG {
+    width: 300%;
+  }
+}
+@media (max-width: 760px) {
+  video.videoBG {
+    width: 400%;
+  }
+}
+@media (max-width: 560px) {
+  video.videoBG {
+    width: 800%;
+  }
+}
+@media (max-width: 370px) {
+  video.videoBG {
+    width: 1000%;
+  }
+}
 div.conteudo {
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 0;
   top: 1;
-  background-color: rgba(0, 0, 0, 0.555);
 }
 
 img.euMesmo {
@@ -312,12 +331,7 @@ div.projetos {
 }
 
 a {
-  color: rgb(136, 136, 255);
-  text-decoration: none;
-}
-
-a:hover {
-  transform: scale(1.2);
+  color: rgb(0, 255, 98);
 }
 
 @keyframes linhaA {
