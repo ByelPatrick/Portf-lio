@@ -12,6 +12,8 @@ div#loading{
     // border-right-color:blue;
     // border-radius: 100%;
     top:40%;
+    display: flex;
+    align-items: center;
     // left: 45%;
     position: relative;
     // position: absolute;
@@ -29,26 +31,19 @@ div.circle{
     align-items: center;
     
 }
-.bounce1,.bounce2,.bounce3,.bounce4,.bounce5,.bounce6,.bounce7{
+.bounce1,.bounce2,.bounce3{
     animation: bounce 2s infinite ease-in-out;
+    background-color: yellowgreen;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 100%;
 }
 .bounce2{
     animation-delay: 0.2s;
 }
 .bounce3{
     animation-delay: 0.4s;
-}
-.bounce4{
-    animation-delay: 0.6s;
-}
-.bounce5{
-    animation-delay: 0.8s;
-}
-.bounce6{
-    animation-delay: 1s;
-}
-.bounce7{
-    animation-delay: 1.2s;
 }
 @keyframes bounce{
     0%, 100%{
@@ -155,6 +150,7 @@ section.info1{
     display: flex;
     align-items: center;
 }
+
 @media(max-width:1200px){
     section.info1{
         width: 60%;
@@ -178,9 +174,7 @@ section.info1{
         width: 10em;
         height: 10em;
     }
-    div#loading{
-        left: 38%;
-    }
+    
     article.myImg{
         margin-right: 1.3em;
     }
@@ -211,9 +205,7 @@ section.info1{
     article.myInfo{
         margin-left: 1em;
     }
-    div#loading{
-        left: 30%;
-    }
+    
 }
 @media(max-width:384px) {
     img.euMesmo{
@@ -238,9 +230,7 @@ section.info1{
     article.myInfo{
         margin-left: .5em;
     }
-    div#loading{
-        left: 25%;
-    }
+    
 }
 
 @media(min-width:620px){
