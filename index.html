@@ -10,13 +10,26 @@
 
 <body>
     
-        <div id="loading" class="circle"></div>
+        <div id="loading" class="circle">
+            <div class="loader">
+                
+                <p>
+               <strong><div class="bounce1">G</div></strong> 
+                <strong><div class="bounce2">A</div></strong>
+                <strong><div class="bounce3">B</div></strong>
+                <strong><div class="bounce4">R</div></strong>
+                <strong><div class="bounce5">Y</div></strong>
+                <strong><div class="bounce6">E</div></strong>
+                <strong><div class="bounce7">L</div></strong>
+            </p>
+            </div>
+        </div>
         
-        
-            <video autoplay muted loop class="videoBG" src="img/The Matrix Raining Green Code Backdrop for OBS - Teams, Zoom calls in 4k.mp4">
+       <div class="videoBG">
+            <video autoplay muted loop id="videoBG" src="img/The Matrix Raining Green Code Backdrop for OBS - Teams, Zoom calls in 4k.mp4">
                 
             </video>
-
+        </div>
     
            
 
@@ -88,9 +101,11 @@
         setTimeout(function(){
         var a = document.getElementById("loading")
         var b = document.getElementById('blur');
+        var c = document.getElementById('videoBG');
         a.style="display:none"
         b.style="filter:none"
-        }, 5000);
+        c.style="display: inline"
+        }, 3000);
     </script>
 </body>
 
