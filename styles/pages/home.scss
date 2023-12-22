@@ -1,31 +1,31 @@
-body{
-    background-color: rgba(0, 0, 0, 0.555);
-    background-size: 1000% 1000%;
-    
-    height: 100dvh;
+
+div.blurBG{
+    background-color: #000000be;
+    background-size: 1000%;
+    z-index: -30;
 }
 div#loading{
+    height: 100vh;
     
-    // height: 10em;
-    // width: 10em;
-    // border: 5px solid rgb(187, 187, 187);
-    // border-right-color:blue;
-    // border-radius: 100%;
-    top:40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    // left: 45%;
-    position: relative;
-    // position: absolute;
+    position: fixed;
     z-index: 3;  
     color: rgb(0, 255, 34); 
-    font-size: 6em;
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
     
 }
-div.circle{
-    // animation: loading 5s linear;
+@media(max-width:554px){
+    div#loading{
+        margin-left: 35%;
+    }
 }
+@media(max-width:375px){
+    div#loading{
+        margin-left: 25%;
+    }
+}
+
 .loader{
     display: flex;
     justify-content: center;
@@ -101,17 +101,15 @@ div#blur{
 div.contato{
     z-index: 2;
     position: fixed;
-    display: flex;
-    align-items: center;
-    top: 0;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.705);
-    width: 100%;
-    height: 5%;
+    top: 85%;
+    left: 75%;
+    padding: 1em;
+    
     
 }
 div#contatoId{
     filter: blur(5px);
+   
 }
 div.contato img{
     width: 1em;
@@ -120,20 +118,16 @@ div.contato img{
 div.contato a{
     text-decoration: none;
     color: white ;
+    text-align: center;
 }
-div.whats{
-    margin-right: 2em;
-}
+
 div.whats:hover{
     transform: scale(1.1);
     transition: .6s;
 }
-div.gmail{
-    margin-right: 2em;
-}
-div.gmail:hover{
-    transform: scale(1.1);
-    transition: .6s;
+div.linkedin{
+    
+    margin-top: 1em;
 }
 div.linkedin:hover{
     transform: scale(1.1);
@@ -147,9 +141,7 @@ div.linkedin:hover{
     div.whats{
         margin-right: .6em;
     }
-    div.gmail{
-        margin-right: .6em;
-    }
+    
 }
 @media (max-width:565px){
     div.contato a{
@@ -185,6 +177,8 @@ article.myImg{
 }
 article.myInfo{
     margin-left: 4em;
+    width: 70%;
+    
 }
 article.myInfo div{
     display: flex;
@@ -206,10 +200,12 @@ p.rua{
     text-align: right;
 }
 section.info1{
-    width: 40%;
+    
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
-    margin-top: 5%;
+    
 }
 
 @media(max-width:1200px){
