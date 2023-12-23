@@ -132,6 +132,10 @@ div.linkedin{
 div.github{
     margin-top: 1em;
 }
+div.github:hover{
+    transform: scale(1.1);
+    transition: .6s;
+}
 div.linkedin:hover{
     transform: scale(1.1);
     transition: .6s;
