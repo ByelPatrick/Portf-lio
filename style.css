@@ -148,8 +148,8 @@ div#blur {
 div.contato {
   z-index: 2;
   position: fixed;
-  top: 85%;
-  left: 75%;
+  top: 80%;
+  left: 80%;
   padding: 1em;
 }
 
@@ -173,6 +173,10 @@ div.whats:hover {
 }
 
 div.linkedin {
+  margin-top: 1em;
+}
+
+div.github {
   margin-top: 1em;
 }
 
@@ -242,10 +246,11 @@ p.rua {
 }
 
 section.info1 {
-  width: 100%;
+  width: 95%;
   height: 100%;
   display: flex;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 @media (max-width: 1200px) {
